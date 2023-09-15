@@ -1,0 +1,19 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.pattern{
+    position: fixed;
+}
+
+
+.pattern {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: #212121;
+opacity: 1;
+background-image: radial-gradient(circle at center center, #f2f4ff, #212121), repeating-radial-gradient(circle at center center, #f2f4ff, #f2f4ff, 14px, transparent 28px, transparent 14px);
+background-blend-mode: multiply;
+}
